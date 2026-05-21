@@ -1,3 +1,3 @@
-### Hi there 👋
+### Hi there
 
-![](https://komarev.com/ghpvc/?username=sunls24)
+This is my personal navigation page.

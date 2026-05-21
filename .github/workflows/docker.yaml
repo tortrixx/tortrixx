@@ -28,7 +28,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: sunls24/sunls24
+          images: tortrixx/tortrixx
           tags: |
             type=raw,value=latest
             type=ref,event=tag

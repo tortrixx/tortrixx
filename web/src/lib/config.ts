@@ -15,39 +15,33 @@ interface Config {
 }
 
 export const config: Config = {
-  github: "https://github.com/sunls24",
+  github: "https://github.com/tortrixx",
   projects: [
     {
-      name: "tmail",
-      desc: "临时邮箱 - 匿名的一次性邮箱",
-      link: "https://mail.sunls.de",
-      icon: "Mail",
+      name: "tortrixx",
+      desc: "我的个人导航页项目，用来集中整理常用入口、项目和工作区工具。",
+      link: "https://github.com/tortrixx/tortrixx",
+      icon: "Compass",
     },
     {
-      name: "divination",
-      desc: "AI 算卦 - 随机六次硬币结果，生成卦象，并使用 AI 解读",
-      link: "https://divination.sunls.de",
-      icon: "BrainCircuit",
+      name: "GitHub",
+      desc: "我的代码仓库和开源项目主页。",
+      link: "https://github.com/tortrixx",
+      icon: "Github",
     },
     {
-      name: "devtools",
-      desc: "简洁高效的在线工具箱｜JSON 格式化，Crontab 时间计算，Base64 / URL 编解码",
-      link: "https://tool.sunls.de",
+      name: "Workspace",
+      desc: "个人工作流、常用软件和开发工具清单。",
+      link: "/workspace",
       icon: "DraftingCompass",
-    },
-    {
-      name: "nextai",
-      desc: "一个简单而优雅的 AI 聊天程序",
-      link: "https://next.sunls.de",
-      icon: "Sparkles",
     },
   ],
   links: [
     {
-      name: "UPTIME",
-      link: "https://up.sunls.de",
-      desc: "服务监控，看看挂了没",
-      icon: "Activity",
+      name: "GITHUB",
+      link: "https://github.com/tortrixx",
+      desc: "代码、项目和公开资料",
+      icon: "Github",
     },
     {
       name: "WORKSPACE",
@@ -57,9 +51,9 @@ export const config: Config = {
     },
   ],
   about: {
-    mail: "c3VubHN4QG91dGxvb2suY29t",
-    me: "崇尚简约，少即是多，立志成为优秀的云原生/全栈工程师 💪",
-    backend: ["Golang", "Python", "Docker", "Kubernetes", "Operator"],
-    frontend: ["TypeScript", "React", "Next.js", "Astro"],
+    mail: "",
+    me: "这里是 tortrixx 的个人导航页，集中放置常用入口、项目和开发工作区。",
+    backend: ["Golang", "Python", "Docker", "Linux"],
+    frontend: ["TypeScript", "React", "Astro", "Tailwind CSS"],
   },
 }

@@ -10,13 +10,13 @@ FROM golang:1.25-alpine AS builder
 WORKDIR /app
 COPY go.mod go.sum main.go ./
 COPY --from=bun-builder /app/dist ./web/dist/
-RUN CGO_ENABLED=0 go build -ldflags '-s -w' -o sunls24 main.go
+RUN CGO_ENABLED=0 go build -ldflags '-s -w' -o tortrixx main.go
 
 FROM alpine AS runner
 WORKDIR /app
-COPY --from=builder /app/sunls24 .
+COPY --from=builder /app/tortrixx .
 
 ENV HOST=127.0.0.1
 ENV PORT=3000
 EXPOSE 3000
-CMD ["/app/sunls24"]
+CMD ["/app/tortrixx"]

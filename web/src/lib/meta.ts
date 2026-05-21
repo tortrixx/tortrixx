@@ -1,8 +1,8 @@
 export default {
   lang: "zh",
-  title: "sunls24",
-  description: "崇尚简约，少即是多，立志成为优秀的云原生/全栈工程师 💪",
+  title: "tortrixx",
+  description: "tortrixx 的个人导航页，集中整理常用入口、项目和开发工作区。",
 
-  appleWebApp: "sunls24",
+  appleWebApp: "tortrixx",
   appleIcon: "/apple-icon.png",
 }
